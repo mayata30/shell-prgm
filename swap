@@ -1,0 +1,9 @@
+echo "enter a number:";
+read n1;
+echo "enter a number:";
+read n2;
+temp=$n1
+n1=$n2
+n2=$temp
+echo "frist number:"$n1;
+echo "second number:"$n2;
