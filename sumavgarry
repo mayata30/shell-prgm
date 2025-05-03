@@ -1,0 +1,14 @@
+echo "enter a 1st number:"
+read n1
+echo "enter a 2st number:"
+read n2
+echo -e "choose operation\n 1.add\n 2.sub\n 3.multi\n 4.div\n 5.moules"
+read choice
+case $choice in
+1) echo "result:$((n1 + n2))";;
+2) echo "result:$((n1-n2))";;
+3) echo "result:$((n1*n2))";;
+4) echo "result:$((n1/n2))";;
+5) echo "result:$((n1%n2))";;
+*) echo "invalid choice";;
+esac
