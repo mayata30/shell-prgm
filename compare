@@ -1,0 +1,10 @@
+echo "enter a 1st str"
+read str1
+echo "enter a 2st str"
+read str2
+if [ $str1==$str2 ]
+then
+echo  $str1 "and" $str2 " are equal"
+else
+echo  $str1 "and" $str2 "are not equal"
+fi
